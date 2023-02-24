@@ -10,28 +10,24 @@ This repository is divided into two parts: the first part is an introduction to 
 
 use git clone from this repository
 ```shell
-git clone git@github.com:YuHengsss/YOLOV.git
-cd YOLOV
+git clone git@github.com:shoulder1love/IMU_GPS_FUSION.git
+cd IMU_GPS_FUSION
 ```
 
-###IMU fusion algorithms
+### IMU fusion algorithms
 
 <details>
 <summary>Installation</summary>
 
-Build file from source.
+Build files from source.
 ```shell
-git clone git@github.com:YuHengsss/YOLOV.git
-cd YOLOV
+cd IMU_GPS_FUSION_2023
+mkdir -p build
+cd build
 ```
 
-Create conda env.
+Build files.
 ```shell
-conda create -n yolov python=3.7
-
-conda activate yolov
-
-pip install -r requirements.txt
-
-pip3 install -v -e .
+cmake ..
+make
 ```
