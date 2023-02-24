@@ -31,7 +31,7 @@ Build files.
 cmake ..
 make
 ```
-  
+</details>  
 ### Front- and Backend algorithms(Visualisation)
 
 <details>
@@ -46,4 +46,4 @@ Run the sever.
 cd VIS_front_backend
 python3 manage.py runserver
 ```
-
+</details>
