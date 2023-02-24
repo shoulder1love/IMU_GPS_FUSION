@@ -31,3 +31,19 @@ Build files.
 cmake ..
 make
 ```
+  
+### Front- and Backend algorithms(Visualisation)
+
+<details>
+<summary>Installation</summary>
+
+Install [Django](https://docs.djangoproject.com/zh-hans/4.1/topics/install/#installing-official-release) from source.
+```shell
+python3 -m pip install Django
+```
+Run the sever.
+```shell
+cd VIS_front_backend
+python3 manage.py runserver
+```
+
