@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhang20/Project/DCAITI_TUB_WS22/IMU_GPS_FUSION_2023/src/main.cpp
+stdio.h
+-
+stdlib.h
+-
+navi.h
+/home/zhang20/Project/DCAITI_TUB_WS22/IMU_GPS_FUSION_2023/src/navi.h
+
+/home/zhang20/Project/DCAITI_TUB_WS22/IMU_GPS_FUSION_2023/src/mat.h
+string.h
+-
+math.h
+-
+
+/home/zhang20/Project/DCAITI_TUB_WS22/IMU_GPS_FUSION_2023/src/navi.h
+mat.h
+/home/zhang20/Project/DCAITI_TUB_WS22/IMU_GPS_FUSION_2023/src/mat.h
+
