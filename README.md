@@ -50,4 +50,7 @@ python3 manage.py runserver
 </details>
 
 
-reference: https://github.com/Shelfcol/gps_imu_fusion
+reference[1]: https://github.com/Shelfcol/gps_imu_fusion
+
+reference[2]: https://zhuanlan.zhihu.com/p/152662055
+              article: https://arxiv.org/pdf/1711.02508.pdf
